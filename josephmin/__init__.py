@@ -10,7 +10,7 @@ def home():
 
 @app.route('/yo-joe')
 def yo():
-    return 'Whaddup, Joe'
+    return render_template('missing.html')
 
 @app.errorhandler(404)
 def not_found(error):
