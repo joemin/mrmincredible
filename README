@@ -7,5 +7,5 @@ Environment Setup Steps:
 * `sudo vim /etc/nginx/nginx.conf`
 * `sudo /etc/rc.d/init.d/nginx start`
 * [idk, use this thing](https://www.matthealy.com.au/blog/post/deploying*flask*to*amazon*web*services*ec2/)
-* from ~/mrmincredible, run `pip install *e .`
+* from ~/mrmincredible, run `pip install -e .`
 * `flask run`
