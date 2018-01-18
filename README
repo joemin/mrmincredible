@@ -1,11 +1,11 @@
 Environment Setup Steps:
-- `sudo yum install python 2.7, pip, virtualenv, nginx` (probably only need nginx if using free Amazon Linux EC2 instance)
-- Set up virtual environment (`. venv/bin/activate`)
-- `pip install Flask`
-- `export FLASK_APP=josephmin`
-- `sudo vim /etc/nginx/conf.d/virtual.conf`
-- `sudo vim /etc/nginx/nginx.conf`
-- `sudo /etc/rc.d/init.d/nginx start`
-- idk use this thing: https://www.matthealy.com.au/blog/post/deploying-flask-to-amazon-web-services-ec2/
-- from ~/mrmincredible, run `pip install -e .`
-- flask run
+* `sudo yum install python 2.7, pip, virtualenv, nginx` (probably only need nginx if using free Amazon Linux EC2 instance)
+* Set up virtual environment (`. venv/bin/activate`)
+* `pip install Flask`
+* `export FLASK_APP=josephmin`
+* `sudo vim /etc/nginx/conf.d/virtual.conf`
+* `sudo vim /etc/nginx/nginx.conf`
+* `sudo /etc/rc.d/init.d/nginx start`
+* [idk, use this thing](https://www.matthealy.com.au/blog/post/deploying*flask*to*amazon*web*services*ec2/)
+* from ~/mrmincredible, run `pip install *e .`
+* `flask run`
