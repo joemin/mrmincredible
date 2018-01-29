@@ -3,3 +3,8 @@ os: linux
 files:
   - source: /
     destination: /home/ec2-user/mrmincredible/josephmin
+hooks:     
+  AfterInstall:       
+    - location: scripts/restart_supervisord.sh        
+      timeout: 180        
+      runas: root
